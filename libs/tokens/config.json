@@ -1,6 +1,19 @@
 {
   "source": ["tokens/**/*.json"],
   "platforms": {
+    "ts": {
+      "transformGroup": "js",
+      "buildPath": "src/styles/",
+      "files": [
+        {
+          "destination": "variables.ts",
+          "format": "javascript/es6",
+          "options": {
+            "outputReferences": true
+          }
+        }
+      ]
+    },
     "scss": {
       "transformGroup": "scss",
       "buildPath": "build/scss/",
