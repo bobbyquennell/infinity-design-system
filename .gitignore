@@ -114,3 +114,7 @@ common/autoinstallers/*/.npmrc
 
 # Heft
 .heft
+
+# Style Dictionary
+
+build/
