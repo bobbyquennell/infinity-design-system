@@ -1,0 +1,15 @@
+lockfileVersion: 5.3
+
+specifiers:
+  '@rush-temp/tokens': file:./projects/tokens.tgz
+
+dependencies:
+  '@rush-temp/tokens': file:projects/tokens.tgz
+
+packages:
+
+  file:projects/tokens.tgz:
+    resolution: {integrity: sha512-1oS9f5ijN0EthWi76BgsqrFacy6vK74IfGrPX+BsdvEXvWMkycTHTYcjMpJx0IuEncAyvsZfAmmopQZy8j51IQ==, tarball: file:projects/tokens.tgz}
+    name: '@rush-temp/tokens'
+    version: 0.0.0
+    dev: false
