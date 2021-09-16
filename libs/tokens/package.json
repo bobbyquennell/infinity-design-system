@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "style-dictionary build"
+    "build": "style-dictionary build --config style-dictionary.config.js"
   },
   "keywords": [
     "design",
