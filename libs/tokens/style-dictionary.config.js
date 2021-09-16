@@ -1,7 +1,4 @@
 
-import tokens from './src/styles/tokens';
-tokens.color.base.gray.dark;
-
 module.exports = {
   source: ['tokens/**/*.json'],
   platforms: {
